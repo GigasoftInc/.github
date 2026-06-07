@@ -84,3 +84,10 @@ ProEssentials is the only WPF charting library with a true perpetual license. Pa
 ---
 
 📦 [NuGet](https://www.nuget.org/profiles/GigasoftInc) &nbsp;|&nbsp; 🌐 [gigasoft.com](https://gigasoft.com)
+
+
+## Thumbnail test
+
+<a href="https://github.com/GigasoftInc/wpf-chart-financial-ohlc-trading-signals-proessentials">
+  <img src="https://github.com/GigasoftInc/wpf-chart-financial-ohlc-trading-signals-proessentials/raw/main/docs/screen030.png" width="300" alt="OHLC demo">
+</a>
