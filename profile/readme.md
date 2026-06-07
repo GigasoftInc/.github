@@ -75,10 +75,12 @@ ProEssentials is the only WPF charting library with a true perpetual license. Pa
 
 ## Demo Gallery — Browse by Use Case
 
-Every demo is a GPU-accelerated ProEssentials v10 sample. Most ship for **both WPF and WinForms** — pick your platform from the links beside each preview.
+Every demo is a GPU-accelerated ProEssentials v10 chart sample for C# on .NET 8. Most ship for **both WPF and WinForms** — pick your platform from the links beside each preview.
 
 
-### Performance & Real-Time
+### Real-Time & High-Performance Charts
+
+GPU compute shader rendering of millions to hundreds of millions of points per update — real-time streaming, oscilloscope, and live data charts for C# .NET applications.
 
 | Preview | Demo |
 | --- | --- |
@@ -87,7 +89,9 @@ Every demo is a GPU-accelerated ProEssentials v10 sample. Most ship for **both W
 | <a href="https://github.com/GigasoftInc/wpf-3d-surface-realtime-computeshader-proessentials"><img src="https://raw.githubusercontent.com/GigasoftInc/wpf-3d-surface-realtime-computeshader-proessentials/main/docs/Wpf-RealTime-Surface-GigaSoft-413.png" width="300" alt="wpf-3d-surface-realtime-computeshader-proessentials"></a> | **Real-Time 3D Surface — Compute Shader**<br>[WPF](https://github.com/GigasoftInc/wpf-3d-surface-realtime-computeshader-proessentials) · [WinForms](https://github.com/GigasoftInc/winforms-chart-3d-surface-realtime-computeshader-circularbuffer-proessentials)<br><br>.NET 8 — the fastest possible realtime 3D surface update: 720,000 vertices rebuilt every 15 ms using GPU compute shaders and a zero-copy circular-buffer append strategy. A single `Pe3do` 3D chart, Direct2D. |
 | <a href="https://github.com/GigasoftInc/wpf-heatmap-realtime-spectrogram-computeshader-proessentials"><img src="https://raw.githubusercontent.com/GigasoftInc/wpf-heatmap-realtime-spectrogram-computeshader-proessentials/main/docs/wpf-heatmap-spectrogram-gigasoft-139.png" width="300" alt="wpf-heatmap-realtime-spectrogram-computeshader-proessentials"></a> | **Real-Time Spectrogram Heatmap**<br>[WPF](https://github.com/GigasoftInc/wpf-heatmap-realtime-spectrogram-computeshader-proessentials) · [WinForms](https://github.com/GigasoftInc/winforms-heatmap-realtime-spectogram-computeshader-proessentials)<br><br>.NET 8 — a realtime heatmap/spectrogram that replaces the entire 93,696-value surface every 25ms using a tiled data pool + `Array.Copy` + zero-copy `UseDataAtLocation`, GPU ComputeShader. Direct3D. |
 
-### 3D & Surface
+### 3D Surface & Terrain Charts
+
+GPU-accelerated 3D surface, height-map, point cloud, and Delaunay triangulation charts for scientific, engineering, and terrain visualization in WPF and WinForms.
 
 | Preview | Demo |
 | --- | --- |
@@ -96,7 +100,9 @@ Every demo is a GPU-accelerated ProEssentials v10 sample. Most ship for **both W
 | <a href="https://github.com/GigasoftInc/wpf-chart-3d-delaunay-triangulation-surface-heightmap-proessentials"><img src="https://raw.githubusercontent.com/GigasoftInc/wpf-chart-3d-delaunay-triangulation-surface-heightmap-proessentials/main/docs/screen414.png" width="300" alt="wpf-chart-3d-delaunay-triangulation-surface-heightmap-proessentials"></a> | **3D Delaunay Triangulation Surface**<br>[WPF](https://github.com/GigasoftInc/wpf-chart-3d-delaunay-triangulation-surface-heightmap-proessentials) · [WinForms](https://github.com/GigasoftInc/winforms-chart-3d-delaunay-triangulation-surface-heightmap-proessentials)<br><br>.NET 8 — a `Pe3do` Delaunay-triangulated 3D surface with contour coloring, built from 70 scattered XYZ sound-meter readings. Direct3D. |
 | <a href="https://github.com/GigasoftInc/wpf-chart-delaunay-triangulation-2d-contour-proessentials"><img src="https://raw.githubusercontent.com/GigasoftInc/wpf-chart-delaunay-triangulation-2d-contour-proessentials/main/docs/screen147.png" width="300" alt="wpf-chart-delaunay-triangulation-2d-contour-proessentials"></a> | **Delaunay Triangulation 2D Contour**<br>[WPF](https://github.com/GigasoftInc/wpf-chart-delaunay-triangulation-2d-contour-proessentials) · [WinForms](https://github.com/GigasoftInc/winforms-chart-delaunay-triangulation-2d-contour-proessentials)<br><br>.NET 8 — a `Pesgo` continuous Delaunay contour fill (`SGraphPlottingMethod.ContourDelaunay`) from 70 scattered XYZ sound-meter readings, with a custom tooltip and a title-bar interpolated-Z readout. Direct3D composite. |
 
-### Geophysical / Oil & Gas
+### Oil & Gas / Geophysical & Well Log Charts
+
+Well log, cement bond log (VDL), ultrasonic borehole imaging, wellbore trajectory, and NEXRAD radar charts for oil & gas, geophysical, and GIS software.
 
 | Preview | Demo |
 | --- | --- |
@@ -105,20 +111,26 @@ Every demo is a GPU-accelerated ProEssentials v10 sample. Most ship for **both W
 | <a href="https://github.com/GigasoftInc/wpf-chart-ultrasonic-borehole-image-dual-contour-heatmap"><img src="https://raw.githubusercontent.com/GigasoftInc/wpf-chart-ultrasonic-borehole-image-dual-contour-heatmap/main/docs/gigasoft-demo-wireline-awcn-ttcn.png" width="300" alt="wpf-chart-ultrasonic-borehole-image-dual-contour-heatmap"></a> | **Ultrasonic Borehole Image — Dual Contour**<br>[WPF](https://github.com/GigasoftInc/wpf-chart-ultrasonic-borehole-image-dual-contour-heatmap) · [WinForms](https://github.com/GigasoftInc/winforms-chart-ultrasonic-borehole-image-dual-contour-heatmap)<br><br>.NET 8 — dual-channel ultrasonic borehole image (AWCN amplitude + TTCN transit time) rendered as a single concatenated contour chart sharing one colormap, one zoom, one rendering pass. A top-right overlay button toggles null rendering (Black / Gaps). Direct3D + GPU compute shader. |
 | <a href="https://github.com/GigasoftInc/wpf-chart-nexrad-radar-reflectivity-proessentials"><img src="https://raw.githubusercontent.com/GigasoftInc/wpf-chart-nexrad-radar-reflectivity-proessentials/main/docs/Wpf-NexRad-2D-Contour-Gigasoft-120.png" width="300" alt="wpf-chart-nexrad-radar-reflectivity-proessentials"></a> | **NEXRAD Doppler Radar Reflectivity**<br>[WPF](https://github.com/GigasoftInc/wpf-chart-nexrad-radar-reflectivity-proessentials) · [WinForms](https://github.com/GigasoftInc/winforms-chart-nexrad-radar-proessentials)<br><br>.NET 8 — real NEXRAD Level II radar data from KFWS (Dallas/Fort Worth) rendered as an 800×450 2D contour chart with the official NWS standard reflectivity color table, a geographic map background, and a custom XYZ tooltip. Direct3D + ComputeShader. |
 
-### Heatmap & Contour
+### Heatmap & 2D Contour Charts
+
+GPU-rendered 2D contour and heatmap charts with color-mapped surfaces — spectrograms, frequency analysis, and intensity maps for scientific data.
 
 | Preview | Demo |
 | --- | --- |
 | <a href="https://github.com/GigasoftInc/wpf-heatmap-2d-contour-spectrogram-frequency-proessentials"><img src="https://raw.githubusercontent.com/GigasoftInc/wpf-heatmap-2d-contour-spectrogram-frequency-proessentials/main/docs/wpf-heatmap-spectrogram-gigasoft-139.png" width="300" alt="wpf-heatmap-2d-contour-spectrogram-frequency-proessentials"></a> | **2D Spectrogram Heatmap (frequency)**<br>[WPF](https://github.com/GigasoftInc/wpf-heatmap-2d-contour-spectrogram-frequency-proessentials) · [WinForms](https://github.com/GigasoftInc/winforms-chart-heatmap-2d-contour-spectogram-frequency-proessentials)<br><br>.NET 8 — a full-featured heatmap / spectrogram / 2D contour visualization (frequency vs time vs amplitude) using `Pesgo` with `ContourColors`, log Y axis, and GPU ComputeShader. Direct3D. |
 
-### Financial & Signal
+### Financial & Signal-Processing Charts
+
+OHLC candlestick, technical indicator, trading signal, and audio waveform oscilloscope charts for financial and signal-processing applications.
 
 | Preview | Demo |
 | --- | --- |
 | <a href="https://github.com/GigasoftInc/wpf-chart-financial-ohlc-trading-signals-proessentials"><img src="https://raw.githubusercontent.com/GigasoftInc/wpf-chart-financial-ohlc-trading-signals-proessentials/main/docs/screen030.png" width="300" alt="wpf-chart-financial-ohlc-trading-signals-proessentials"></a> | **Financial OHLC + Trading Signals**<br>[WPF](https://github.com/GigasoftInc/wpf-chart-financial-ohlc-trading-signals-proessentials) · [WinForms](https://github.com/GigasoftInc/winforms-chart-financial-ohlc-trading-signals-studies-proessentials)<br><br>.NET 8 — a complete financial charting app built on `Pego` (the categorical / date-axis graph object): OHLC candlesticks for ten real stock symbols with Bollinger Bands, RSI, a custom stochastic oscillator, and Buy/Sell signal annotations generated from stochastic turning points. Direct2D, four synchronized multi-axes. |
 | <a href="https://github.com/GigasoftInc/wpf-audio-waveform-oscilloscope-proessentials"><img src="https://raw.githubusercontent.com/GigasoftInc/wpf-audio-waveform-oscilloscope-proessentials/main/docs/Wpf-Audio-Oscilloscope-Chart-ProEssentials.png" width="300" alt="wpf-audio-waveform-oscilloscope-proessentials"></a> | **Audio Waveform Oscilloscope**<br>[WPF](https://github.com/GigasoftInc/wpf-audio-waveform-oscilloscope-proessentials) · [WinForms](https://github.com/GigasoftInc/winforms-audio-viewer-oscilloscope-proessentials)<br><br>.NET 8 — dual-channel audio oscilloscope with a 5-song playlist, MCI playback, real-time playhead, O-Scope/dBFS/Lyrics/Overlap modes, synchronized lyrics overlay, and a full right-click custom menu. |
 
-### Techniques & Tutorials
+### Techniques & How-To Examples
+
+Focused C# how-to examples — multi-axis layouts, custom axis labels, log-log scales, mouse interaction and hot spots, bitmap symbols, and a clone-build-run quickstart.
 
 | Preview | Demo |
 | --- | --- |
