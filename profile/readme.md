@@ -69,7 +69,7 @@ Native **x64, ARM64, and x86** engines. AnyCpu assemblies embed the native engin
 
 ## Licensing — Perpetual. No Subscriptions. No Surprises.
 
-ProEssentials is the only WinUI and WPF charting library with a true perpetual license. Pay once. Use forever. Free unlimited support for life. Royalty-free deployment to unlimited end-user machines. No annual renewal. No subscription expiry traps. No reactivation fees.
+ProEssentials includes a perpetual license. Pay once. Use forever. Free unlimited support for life. Royalty-free deployment to unlimited end-user machines. No annual renewal. No subscription expiry traps. No reactivation fees.
 
 ➡️ [Pricing & Support Comparison vs SciChart, LightningChart, Syncfusion, DevExpress](https://gigasoft.com/why-proessentials/pricing-support)
 
