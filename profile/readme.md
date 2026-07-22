@@ -7,7 +7,9 @@ GPU compute shader accelerated. Native ARM64. AI-assisted development. Mission-c
 
 ## New in v11 — WinUI 3, .NET 10, Native ARM64
 
-ProEssentials v11 brings a thirty-year native C++ rendering engine to **WinUI 3** and **true native ARM64** — presenting directly through a composition swap chain rather than a managed XAML layer. Also new: **.NET 10** across every managed interface, and **ARM64**.
+ProEssentials v11 brings a thirty-year native C++ rendering engine to **WinUI 3** and **true native ARM64** — presenting directly through a composition swap chain rather than a managed XAML layer. Also new: **.NET 10** across every managed interface.
+
+New to WinUI 3? Our [**winui-starter**](https://github.com/GigasoftInc/winui-starter) is a public-domain WinUI 3 template that actually runs — unpackaged .NET 10, a plain .exe, no MSIX, and none of the stock Windows App SDK template's traps. No ProEssentials required.
 
 ➡️ [WinUI Chart Walk-Through](https://gigasoft.com/winui-chart) &nbsp;·&nbsp; [WinUI Performance Comparison](https://gigasoft.com/why-proessentials/winui-chart-performance)
 
