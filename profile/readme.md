@@ -7,7 +7,7 @@ GPU compute shader accelerated. Native ARM64. AI-assisted development. Mission-c
 
 ## New in v11 — WinUI 3, .NET 10, Native ARM64
 
-ProEssentials v11 brings a thirty-year native C++ rendering engine to **WinUI 3** — presenting directly through a composition swap chain rather than a managed XAML layer, which is why it holds frame rates the XAML pipeline cannot. Also new: **.NET 10** across every managed interface, and **native ARM64** builds bind to native Direct3D Direct2D PEGRPARM64I.DLL
+ProEssentials v11 brings a thirty-year native C++ rendering engine to **WinUI 3** and **true native Arm64** — presenting directly through a composition swap chain rather than a managed XAML layer. Also new: **.NET 10** across every managed interface, and **native ARM64**.
 
 ➡️ [WinUI Chart Walk-Through](https://gigasoft.com/winui-chart) &nbsp;·&nbsp; [WinUI Performance Comparison](https://gigasoft.com/why-proessentials/winui-chart-performance)
 
