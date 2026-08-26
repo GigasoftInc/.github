@@ -1,18 +1,55 @@
 # Gigasoft, Inc. — ProEssentials Charting SDK
 
-**The World's Fastest WinUI, WPF, WinForms, and MFC C++ Charting Components.**
+**The World's Fastest JavaScript, WinUI, WPF, WinForms, and MFC C++ Charting Components.**
 GPU compute shader accelerated. Native ARM64. AI-assisted development. Mission-critical quality since 1993.
 
 ---
 
 > [!TIP]
-> ### 🎁 Launch Offer — 15% Off Through October 31, 2026
-> Found ProEssentials through these open-source demos? Use code **`GITHUB15_OCT31`** at checkout for **15% off** your first perpetual license — one-time purchase, no subscription, yours for life.
+> ### 🚀 Launch Week Promo — 33% Off &nbsp;·&nbsp; ProEssentialsJS released 08/26/26
+> **One time offer, limited time.** Use code **`JS_LAUNCH33_SEPT10`** at checkout for **33% off** a perpetual license — paid once, no subscription, yours for life.
+>
+> **Offer ends midnight September 9, 2026.**
 >
 > Thank you — every ⭐ star and share helps another engineer find these examples. ➡️ **[Start a no-hassle evaluation](https://gigasoft.com/net-chart-component-wpf-winforms-download)**
 
 ---
 
+## New — ProEssentialsJS: The Same Engine, In Your Browser
+
+The thirty-year native C++ engine compiled to **WebAssembly**, with **WebGPU**
+compute shaders. No plugin, no server, no build step — two script tags. The
+JavaScript property names are the WinForms property names, so a desktop
+customer already knows the API.
+
+### ▶ See it running right now — nothing to download, nothing to sign up for
+
+| Live Demo | What It Shows |
+|-----------|---------------|
+| **[120 Chart Examples](https://gigasoft.com/javascript-chart-live-demo/)** | The whole example set, with the source beside each chart |
+| **[100 Million Points](https://gigasoft.com/fastest-javascript-chart-live-demo/)** | Every point re-passed and re-rendered each frame, with live FPS |
+| **[3D Surfaces & Contours](https://gigasoft.com/javascript-3d-surface-chart-live-demo/)** | A WebGPU mesh from real height-map data — rotate it, zoom it |
+
+### Clone and run — `npm start`, nothing to install
+
+| Repository | |
+|------------|--|
+| [**proessentials-js-starter**](https://github.com/GigasoftInc/proessentials-js-starter) | The smallest chart that runs. The file to read first. |
+| [**proessentials-js-demo**](https://github.com/GigasoftInc/proessentials-js-demo) | 120 examples with the source beside each chart |
+| [**proessentials-js-gigaprime2d**](https://github.com/GigasoftInc/proessentials-js-gigaprime2d) | 100 million points per frame — WebGPU compute shaders, zero-copy |
+| [**proessentials-js-gigaprime3d**](https://github.com/GigasoftInc/proessentials-js-gigaprime3d) | 3D surface, linked 2D contour, live cross-section |
+| [**proessentials-ai-data**](https://github.com/GigasoftInc/proessentials-ai-data) | Ground-truth API knowledge for your AI assistant |
+
+```
+npm install proessentials
+```
+
+➡️ [proessentials on npm](https://www.npmjs.com/package/proessentials) &nbsp;·&nbsp; [JavaScript Walk-Through](https://gigasoft.com/javascript-chart-walkthrough) &nbsp;·&nbsp; [All 120 Examples](https://gigasoft.com/javascript-chart-examples)
+
+**Free for commercial use, redistribution included, under USD 250,000 annual
+gross revenue** — no licence key, no activation, no domain lock, no watermark.
+
+---
 ## New in v11 — WinUI 3, .NET 10, Native ARM64
 
 ProEssentials v11 brings a thirty-year native C++ rendering engine to **WinUI 3** and **true native ARM64** — presenting directly through a composition swap chain rather than a managed XAML layer. Also new: **.NET 10** across every managed interface.
@@ -55,10 +92,11 @@ Same objects, same property tree, on every interface. Port a chart between WinUI
 
 ---
 
-## Platform Coverage — One Product, Nine Targets
+## Platform Coverage — One Product, Ten Targets
 
 | Platform | Supported |
 |----------|-----------|
+| **JavaScript / TypeScript (browser)** | ✅ WebAssembly + WebGPU — no plugin, no server |
 | **WinUI 3 (.NET 10)** | ✅ Native WinUI controls — composition swap chain |
 | WPF (.NET 10 / .NET 8 / .NET 4.8) | ✅ Native WPF controls |
 | WinForms (.NET 10 / .NET 8 / .NET 4.8) | ✅ Native WinForms controls |
@@ -108,7 +146,7 @@ GPU compute shader rendering of millions to hundreds of millions of points per u
 
 | Preview | Demo |
 | --- | --- |
-| <a href="https://github.com/GigasoftInc/winui-chart-fast-100m-points-proessentials"><img src="https://raw.githubusercontent.com/GigasoftInc/winui-chart-fast-100m-points-proessentials/main/docs/winui-chart-100-million-points-net10.png" width="300" alt="winui-chart-fast-100m-points-proessentials"></a> | **100 Million Points — Fastest Demo**<br>[WinUI](https://github.com/GigasoftInc/winui-chart-fast-100m-points-proessentials) · [WPF](https://github.com/GigasoftInc/wpf-chart-fast-100m-points-proessentials) · [WinForms](https://github.com/GigasoftInc/winforms-chart-100million-points-proessentials)<br><br>A demonstration of GPU compute shader rendering: 100 million data points completely re-passed and re-rendered per timer tick. Live FPS displayed in the title bar. |
+| <a href="https://github.com/GigasoftInc/winui-chart-fast-100m-points-proessentials"><img src="https://raw.githubusercontent.com/GigasoftInc/winui-chart-fast-100m-points-proessentials/main/docs/winui-chart-100-million-points-net10.png" width="300" alt="winui-chart-fast-100m-points-proessentials"></a> | **100 Million Points — Fastest Demo**<br>[WinUI](https://github.com/GigasoftInc/winui-chart-fast-100m-points-proessentials) · [WPF](https://github.com/GigasoftInc/wpf-chart-fast-100m-points-proessentials) · [WinForms](https://github.com/GigasoftInc/winforms-chart-100million-points-proessentials) · [JavaScript](https://github.com/GigasoftInc/proessentials-js-gigaprime2d)<br><br>A demonstration of GPU compute shader rendering: 100 million data points completely re-passed and re-rendered per timer tick. Live FPS displayed in the title bar. |
 | <a href="https://github.com/GigasoftInc/wpf-realtime-circular-buffer-8million-points-proessentials"><img src="https://raw.githubusercontent.com/GigasoftInc/wpf-realtime-circular-buffer-8million-points-proessentials/main/docs/screen146.png" width="300" alt="wpf-realtime-circular-buffer-8million-points-proessentials"></a> | **Real-Time Circular Buffer — 8M Points, Zero-Copy**<br>[WinUI](https://github.com/GigasoftInc/winui-realtime-circular-buffer-8million-points-proessentials) · [WPF](https://github.com/GigasoftInc/wpf-realtime-circular-buffer-8million-points-proessentials) · [WinForms](https://github.com/GigasoftInc/winforms-chart-realtime-circularbuffer-computeshader-direct3d-proessentials)<br><br>.NET 8 — 4 subsets × 2,000,000 points streamed in real time via zero-copy `UseDataAtLocation` + `CircularBuffers` + Direct3D ComputeShader. A timer appends 150 samples/subset every 15ms; a right-click submenu toggles Stationary vs Scrolling zoom. |
 | <a href="https://github.com/GigasoftInc/winui-3d-surface-realtime-computeshader-proessentials"><img src="https://raw.githubusercontent.com/GigasoftInc/wpf-3d-surface-realtime-computeshader-proessentials/main/docs/Wpf-RealTime-Surface-GigaSoft-413.png" width="300" alt="winui-3d-surface-realtime-computeshader-proessentials"></a> | **Real-Time 3D Surface — Compute Shader**<br>[WinUI](https://github.com/GigasoftInc/winui-3d-surface-realtime-computeshader-proessentials) · [WPF](https://github.com/GigasoftInc/wpf-3d-surface-realtime-computeshader-proessentials) · [WinForms](https://github.com/GigasoftInc/winforms-chart-3d-surface-realtime-computeshader-circularbuffer-proessentials)<br><br>.NET 8 — the fastest possible realtime 3D surface update: 720,000 vertices rebuilt every 15 ms using GPU compute shaders and a zero-copy circular-buffer append strategy. A single `Pe3do` 3D chart, Direct2D. |
 | <a href="https://github.com/GigasoftInc/wpf-heatmap-realtime-spectrogram-computeshader-proessentials"><img src="https://raw.githubusercontent.com/GigasoftInc/wpf-heatmap-realtime-spectrogram-computeshader-proessentials/main/docs/wpf-heatmap-spectrogram-gigasoft-139.png" width="300" alt="wpf-heatmap-realtime-spectrogram-computeshader-proessentials"></a> | **Real-Time Spectrogram Heatmap**<br>[WinUI](https://github.com/GigasoftInc/winui-heatmap-realtime-spectrogram-computeshader-proessentials) · [WPF](https://github.com/GigasoftInc/wpf-heatmap-realtime-spectrogram-computeshader-proessentials) · [WinForms](https://github.com/GigasoftInc/winforms-heatmap-realtime-spectogram-computeshader-proessentials)<br><br>.NET 8 — a realtime heatmap/spectrogram that replaces the entire 93,696-value surface every 25ms using a tiled data pool + `Array.Copy` + zero-copy `UseDataAtLocation`, GPU ComputeShader. Direct3D. |
@@ -119,7 +157,7 @@ GPU-accelerated 3D surface, height-map, point cloud, and Delaunay triangulation 
 
 | Preview | Demo |
 | --- | --- |
-| <a href="https://github.com/GigasoftInc/winui-chart-3d-surface-proessentials"><img src="https://raw.githubusercontent.com/GigasoftInc/winui-chart-3d-surface-proessentials/main/docs/winui-chart-3dsurface-2dcontour.png" width="300" alt="winui-chart-3d-surface-proessentials"></a> | **3D Surface Height Map (flagship 3D/2D demo)**<br>[WinUI](https://github.com/GigasoftInc/winui-chart-3d-surface-proessentials) · [WPF](https://github.com/GigasoftInc/wpf-chart-3d-surface-proessentials) · [WinForms](https://github.com/GigasoftInc/winforms-chart-3d-surface-proessentials)<br><br>Likely the most impressive functioning, performing, efficient 3D/2D combo example you will find on GitHub. GPU compute shader 3D surface rendering — real material surface and terrain height-map data visualized across three synchronized charts. |
+| <a href="https://github.com/GigasoftInc/winui-chart-3d-surface-proessentials"><img src="https://raw.githubusercontent.com/GigasoftInc/winui-chart-3d-surface-proessentials/main/docs/winui-chart-3dsurface-2dcontour.png" width="300" alt="winui-chart-3d-surface-proessentials"></a> | **3D Surface Height Map (flagship 3D/2D demo)**<br>[WinUI](https://github.com/GigasoftInc/winui-chart-3d-surface-proessentials) · [WPF](https://github.com/GigasoftInc/wpf-chart-3d-surface-proessentials) · [WinForms](https://github.com/GigasoftInc/winforms-chart-3d-surface-proessentials) · [JavaScript](https://github.com/GigasoftInc/proessentials-js-gigaprime3d)<br><br>Likely the most impressive functioning, performing, efficient 3D/2D combo example you will find on GitHub. GPU compute shader 3D surface rendering — real material surface and terrain height-map data visualized across three synchronized charts. |
 | <a href="https://github.com/GigasoftInc/winui-3d-lidar-point-cloud-computeshader-proessentials"><img src="https://raw.githubusercontent.com/GigasoftInc/wpf-3d-lidar-point-cloud-computeshader-proessentials/main/docs/Gigasoft-Lidar-Wpf-Chart-2M-points.png" width="300" alt="winui-3d-lidar-point-cloud-computeshader-proessentials"></a> | **3D LiDAR Point Cloud — 2.5M Returns**<br>[WinUI](https://github.com/GigasoftInc/winui-3d-lidar-point-cloud-computeshader-proessentials) · [WPF](https://github.com/GigasoftInc/wpf-3d-lidar-point-cloud-computeshader-proessentials) · [WinForms](https://github.com/GigasoftInc/winforms-3d-lidar-point-cloud-computeshader-proessentials)<br><br>.NET 8 demonstration of the ComputeShader path for `PolyMode = Scatter` — rendering 2.5M Mt. Tamalpais LiDAR returns as a 3D scatter cloud with every point individually colored by elevation. |
 | <a href="https://github.com/GigasoftInc/wpf-chart-3d-delaunay-triangulation-surface-heightmap-proessentials"><img src="https://raw.githubusercontent.com/GigasoftInc/wpf-chart-3d-delaunay-triangulation-surface-heightmap-proessentials/main/docs/screen414.png" width="300" alt="wpf-chart-3d-delaunay-triangulation-surface-heightmap-proessentials"></a> | **3D Delaunay Triangulation Surface**<br>[WinUI](https://github.com/GigasoftInc/winui-chart-3d-delaunay-triangulation-surface-heightmap-proessentials) · [WPF](https://github.com/GigasoftInc/wpf-chart-3d-delaunay-triangulation-surface-heightmap-proessentials) · [WinForms](https://github.com/GigasoftInc/winforms-chart-3d-delaunay-triangulation-surface-heightmap-proessentials)<br><br>.NET 8 — a `Pe3do` Delaunay-triangulated 3D surface with contour coloring, built from 70 scattered XYZ sound-meter readings. Direct3D. |
 | <a href="https://github.com/GigasoftInc/wpf-chart-delaunay-triangulation-2d-contour-proessentials"><img src="https://raw.githubusercontent.com/GigasoftInc/wpf-chart-delaunay-triangulation-2d-contour-proessentials/main/docs/screen147.png" width="300" alt="wpf-chart-delaunay-triangulation-2d-contour-proessentials"></a> | **Delaunay Triangulation 2D Contour**<br>[WinUI](https://github.com/GigasoftInc/winui-chart-delaunay-triangulation-2d-contour-proessentials) · [WPF](https://github.com/GigasoftInc/wpf-chart-delaunay-triangulation-2d-contour-proessentials) · [WinForms](https://github.com/GigasoftInc/winforms-chart-delaunay-triangulation-2d-contour-proessentials)<br><br>.NET 8 — a `Pesgo` continuous Delaunay contour fill (`SGraphPlottingMethod.ContourDelaunay`) from 70 scattered XYZ sound-meter readings, with a custom tooltip and a title-bar interpolated-Z readout. Direct3D composite. |
